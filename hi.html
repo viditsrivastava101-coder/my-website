@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidit Srivastava</title>
+    
+    <!-- Importing Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* General Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        /* Profile Picture Styling */
+        .profile-pic {
+            width: 120px;       /* Size of the image */
+            height: 120px;
+            border-radius: 50%; /* Circular */
+            object-fit: cover;  /* Prevents stretching */
+            margin-top: 15vh;   
+            margin-bottom: 20px;
+            background-color: #f0f0f0; 
+        }
+
+        /* Main Name */
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 60px;
+            letter-spacing: -0.5px;
+        }
+
+        /* Section Container */
+        .section {
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* Labels */
+        .label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        /* Links */
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 1.1rem;
+            font-weight: 400;
+            transition: opacity 0.2s ease;
+        }
+
+        a:hover { opacity: 0.7; }
+
+        /* Footer */
+        footer {
+            margin-top: auto;
+            font-size: 0.8rem;
+            color: #666;
+            padding-top: 40px;
+            letter-spacing: 1px;
+        }
+        
+        @media (max-width: 600px) { h1 { font-size: 2rem; } }
+    </style>
+</head>
+<body>
+
+    <!-- 
+      YOUR PHOTO HERE: 
+      Replace the src below with "profile.jpg" (or your specific file name).
+    -->
+    <img src=""C:\Users\vidit\OneDrive\Desktop\New folder\ahhh.jpg"" 
+         alt="Vidit Srivastava" 
+         class="profile-pic">
+
+    <!-- Main Name -->
+    <h1>viditsrivastava</h1>
+
+    <!-- Connect Section -->
+    <div class="section">
+        <div class="label">CONNECT</div>
+        <a href="https://www.instagram.com/viditt.101?igsh=MTJyNXM4bWRqMnJlYg==" target="_blank">Instagram</a>
+        <a href="https://open.spotify.com/user/31vxhvli3l6ckdbmtoqp7gfrvcqi?si=GzUvgRG8RKaGZqDJKyBquQ" target="_blank">Spotify</a>
+    </div>
+
+    <!-- Personal Email Section -->
+    <div class="section">
+        <div class="label">PERSONAL</div>
+        <a href="mailto:viditsrivastava101@gmail.com">viditsrivastava101@gmail.com</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; viditsrivastava 2026
+    </footer>
+
+</body>
+</html>
